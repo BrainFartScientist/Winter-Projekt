@@ -88,7 +88,7 @@ void getWeather() {  //diese Methode aktualliesiert die Wetterlage
     break;
     case 7: weatherReport = "Foggy"; 
     break;
-    default: weatherReport = ""; 
+    default: weatherReport = "nothing special outside"; 
     break;      
                                                                      
   } 
