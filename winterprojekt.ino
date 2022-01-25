@@ -37,6 +37,8 @@ void loop() {
     getWeather();                       //millis gibt die Zeit, seit dem Start des Arduinos, an
     timeCheck = millis();
   }
+  Serial.print("Its ");
+  Serial.println(weatherReport);
   switch(weatherID_sum){ 
     case 2: ledThun();
     break;
